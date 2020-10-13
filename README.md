@@ -9,7 +9,7 @@ Arduino Nano based timer for automated teebag pullup
 * [1 digit 7 segment Anzeige](https://www.conrad.de/de/p/kingbright-7-segment-anzeige-rot-14-mm-1-85-v-ziffernanzahl-1-sa56-11srwa-160172.html?gclid=Cj0KCQjwoJX8BRCZARIsAEWBFMJaykgtCQ7-QYBjtcnwdUpXrOPuGESVGSBwpjXEptvj_uxL45Y1P9saApmoEALw_wcB&hk=SEM&WT.srch=1&WT.mc_id=google_pla&s_kwcid=AL%21222%213%21409774158645%21%21%21g%21%21&ef_id=Cj0KCQjwoJX8BRCZARIsAEWBFMJaykgtCQ7-QYBjtcnwdUpXrOPuGESVGSBwpjXEptvj_uxL45Y1P9saApmoEALw_wcB%3AG%3As)
 * [Button / Taster](https://www.funduinoshop.com/epages/78096195.sf/de_DE/?ObjectPath=/Shops/78096195/Products/KT-1)
 * [Bread board & Jumper Kabel](https://www.amazon.de/Breadboard-Female-Female-Male-Male-Female-Male-Steckbr%C3%BCcken/dp/B073X7GZ1P/ref=sr_1_15?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=breadboard&qid=1602602265&sr=8-15)
-* [Wood and Allen keys]
+* Wood and Allen keys
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -26,17 +26,30 @@ To use the project follow the steps below.
 
 2. Open Arduino IDE
 
-3. Select to "Werkzeuge--> port --> /dev/..serial..usb"
+3. Select to "Werkzeuge--> Port --> /dev/..serial..usb"
 
 4. Click on "Hochladen"
 
 
+### In case of disconnected cabels
+
+Here is a simplified circuit diagram in case of disconnected cabels or similar problems
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+1. Connect the two red cabels for power delivery. You shoud see a '.' on the display.
 
+2. Press the Button once. Now the statemachine is in state 1 and waits for further input.
+
+3. Press the Button x times for x minutes. Pressing more than 9 times resets the counter.
+
+4. After a threshold of 3 secs, the timer starts and the teebag is lowered. Preesing the button while the timer is on, you expand the time by 1 minute. It coud appear, that the servo starts buzzing. Don't worry just give it a tab or leave it buzzin.
+
+5. After the given time, the teebag gets pulled up again. You shoud hear an acoustic signal telling you the program finished.
+
+6. Disconnect the red cabels for saving energy.
 
 
 <!-- CONTACT -->
