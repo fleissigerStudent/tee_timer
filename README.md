@@ -28,7 +28,7 @@ To use the project follow the steps below.
 
 2. Open Arduino IDE
 
-3. Select to "Werkzeuge--> Port --> /dev/..serial..usb"
+3. Select "Werkzeuge--> Port --> /dev/..serial..usb"
 
 4. Click on "Hochladen"
 
