@@ -28,9 +28,10 @@ To use the project follow the steps below.
 * the cheap servo starts buzzing when using max min position (0° / 180°). Let some headspace if atleast 5°
 * little delays in between code lines magically helps to keep things working
 * the cheap buzzer can't play any other tones, atleast as far as iam concerned
-* Keep in mind that some digital Pins (for example 6~) have PWM (pulse-width-modulation) to achieve some functions of an analog pin. This allows for values between 0 and 255 instead of just 0 and 1. Some Parts need this extra values. Below ist a map of the Pins for an Arudino Nano:
+* Keep in mind that some digital Pins (for example 6~) have PWM (pulse-width-modulation) to achieve some functions of an analog pin. This allows for values between 0 and 255 instead of just 0 and 1. Some Parts need this extra values. Below is a map of the Pins for an Arudino Nano:
 <br>
-<img src="pin_map_nano.png" alt"pin map arduino nano">
+<img src="pin_map_nano.png" height="650px" alt"pin map arduino nano">
+<p><cite>Pinout Diagram</cite> by https://store.arduino.cc/arduino-nano</p>
 <br>
 
 ### Upload new code on Arduino
