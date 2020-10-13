@@ -1,4 +1,4 @@
-# tee_timer
+# Teetimer 
 Arduino Nano based timer for automated teebag pullup
 
 ### Build With
@@ -30,7 +30,7 @@ To use the project follow the steps below.
 * the cheap buzzer can't play any other tones, atleast as far as iam concerned
 * Keep in mind that some digital Pins (for example 6~) have PWM (pulse-width-modulation) to achieve some functions of an analog pin. This allows for values between 0 and 255 instead of just 0 and 1. Some Parts need this extra values. Below ist a map of the Pins for an Arudino Nano:
 <br>
-<img src="pin_map.png" alt"pin map arduino nano">
+<img src="pin_map_nano.png" alt"pin map arduino nano">
 <br>
 
 ### Upload new code on Arduino
