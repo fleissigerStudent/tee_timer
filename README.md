@@ -10,6 +10,8 @@ Arduino Nano based timer for automated teebag pullup
 * [Button / Taster](https://www.funduinoshop.com/epages/78096195.sf/de_DE/?ObjectPath=/Shops/78096195/Products/KT-1)
 * [Bread board & Jumper Kabel](https://www.amazon.de/Breadboard-Female-Female-Male-Male-Female-Male-Steckbr%C3%BCcken/dp/B073X7GZ1P/ref=sr_1_15?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=breadboard&qid=1602602265&sr=8-15)
 * Wood and Allen keys
+<br/><br/>
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -34,7 +36,7 @@ To use the project follow the steps below.
 ### In case of disconnected cabels
 
 Here is a simplified circuit diagram in case of disconnected cabels or similar problems
-
+<br/><br/>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -50,15 +52,14 @@ Here is a simplified circuit diagram in case of disconnected cabels or similar p
 5. After the given time, the teebag gets pulled up again. You shoud hear an acoustic signal telling you the program finished.
 
 6. Disconnect the red cabels for saving energy.
+<br/><br/>
 
 
 <!-- CONTACT -->
 ## Contact
 
 Bastian Lührs-Püllmann - bastian.puellm@gmail.com
-
-
-
+<br/><br/>
 
 
 <!-- ACKNOWLEDGEMENTS -->
