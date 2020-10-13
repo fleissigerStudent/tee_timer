@@ -22,7 +22,7 @@ Um das Projekt zu nutzen müssen die nachfolgenden Schritte durchgefürht werden
 1. Clone the repo
 ```
 npm install
-
+```
 
 
 <!-- USAGE EXAMPLES -->
