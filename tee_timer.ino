@@ -14,12 +14,7 @@ int num_array[11][8] = {  { 1,1,1,1,1,1,0,0 },  // 0
                           { 1,1,1,0,0,1,1,0 },  // 9
                           { 0,0,0,0,0,0,0,1}};  // Punkt
 
-// forward declaration
-//void Num_Write(int);
-//void pullTee();
-//void dropTee();
-//void teeTone();
-
+// public vars
 int inPin;
 int servoPin;
 int buzzerPin;
@@ -34,8 +29,8 @@ long waitTime;
 long timeout;
 long remainingTime;
 
+// setup for program, to run once
 void setup() {
-  // put your setup code here, to run once:
   inPin = 12;
   servoPin = 10;
   buzzerPin = 11;
@@ -65,7 +60,8 @@ void setup() {
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
   pinMode(9, OUTPUT);
-
+  
+  // display '.' as default
   Num_Write(10);
 
 }
@@ -121,7 +117,7 @@ void loop() {
       }
       break;
     
-    case 3: // Zeit x abgelaufen
+    case 3: // Zeit x abgelaufen oder erneut Button Input
       if(digitalRead(inPin) == HIGH) {
           if(teeTime < 10) {
             teeTime++;
@@ -153,13 +149,13 @@ void loop() {
 }
 
 void teeTone() {
-  tone(buzzerPin, 100); // Im Hauptteil wird nun mit dem Befehl "tone ( x , y )" ein Ton abgegeben.
-  delay(100); // mit einer Dauer von 1 Sekunde
-  noTone(buzzerPin); // Der Ton wird abgeschaltet
-  delay(150); // Der Lautsprecher bleibt eine Sekunde aus
-  tone(buzzerPin, 300); // Im Hauptteil wird nun mit dem Befehl "tone ( x , y )" ein Ton abgegeben.
-  delay(100); // mit einer Dauer von 1 Sekunde
-  noTone(buzzerPin); // Der Ton wird abgeschaltet
+  tone(buzzerPin, 100);
+  delay(100); 
+  noTone(buzzerPin); 
+  delay(150); 
+  tone(buzzerPin, 100);
+  delay(100); 
+  noTone(buzzerPin); 
 }
 
 void Num_Write(int number) {
