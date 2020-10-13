@@ -21,6 +21,7 @@ To use the project follow the steps below.
 ### Prerequisites
 * Arduino IDE
 * Mini USB cabel
+* Too much time on your hand
 
 
 ### Good to know when altering code
