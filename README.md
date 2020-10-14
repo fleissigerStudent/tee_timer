@@ -48,8 +48,7 @@ To use the project follow the steps below.
 
 ### In case of disconnected cabels
 
-<p>Here is a simplified circuit diagram in case of disconnected cabels or similar problems. U can also use the software 'fritzing' and load the tee_timer.fzz file. When you create an account on [fritzing.org](https://fritzing.org/), you can download it for free.
-</p>
+Here is a simplified circuit diagram in case of disconnected cabels or similar problems. U can also use the software 'fritzing' and load the tee_timer.fzz file. When you create an account on the [fritzing website](https://fritzing.org/), you can download it for free.
 <br/>
 <img src="tee_timer_steckplatine.jpg" height="650px" alt"tee timer steckplatine">
 <p>circuit diagram</p>
