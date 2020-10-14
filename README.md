@@ -31,7 +31,7 @@ To use the project follow the steps below.
 * the cheap buzzer can't play any other tones, atleast as far as iam concerned
 * Keep in mind that some digital Pins (for example 6~) have PWM (pulse-width-modulation) to achieve some functions of an analog pin. This allows for values between 0 and 255 instead of just 0 and 1. Some Parts need this extra values. Below is a map of the Pins for an Arudino Nano:
 <br/>
-<img src="pin_map_nano.png" height="650px" alt"pin map arduino nano">
+<img src="pin_map_nano.png" height="650px" alt="pin map arduino nano">
 <p><cite>Pinout Diagram</cite> by https://store.arduino.cc/arduino-nano</p>
 <br/>
 
@@ -50,7 +50,7 @@ To use the project follow the steps below.
 
 Here is a simplified circuit diagram in case of disconnected cabels or similar problems. U can also use the software 'fritzing' and load the tee_timer.fzz file. When you create an account on the [fritzing website](https://fritzing.org/), you can download it for free.
 <br/>
-<img src="tee_timer_steckplatine.jpg" height="650px" alt"tee timer steckplatine">
+<img src="tee_timer_steckplatine.jpg" height="650px" alt="tee timer steckplatine">
 <p>circuit diagram</p>
 <br/><br/>
 
